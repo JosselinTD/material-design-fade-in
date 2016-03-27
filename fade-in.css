@@ -1,0 +1,12 @@
+.fade-end {
+	opacity: 1;
+	transform: translateY(0px);
+
+	-webkit-transition: all 1s;
+	transition: all 1s;
+}
+
+.fade-start {
+	opacity: 0;
+	transform: translateY(-10px);
+}

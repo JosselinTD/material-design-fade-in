@@ -1,6 +1,6 @@
 # Material Design Fade In
 
-A simplistic library to mimic the fade-in effect or Google Material Design
+A simplistic library to mimic the fade-in effect of Google Material Design
 
 ## How-To
 

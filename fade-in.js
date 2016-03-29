@@ -3,6 +3,11 @@ function fade(className) {
 	var toFade = document.getElementsByClassName(className);
 	var fadeStarted = document.getElementsByClassName(className + ' fade-start');
 	var fadeEnded = document.getElementsByClassName(className + ' fade-end');
+
+	if (!toFade.length) {
+		console.error('No DOM found for \'' + className + '\' class');
+		return;
+	}
 	
 	// Init the fading process. If elems are already visible, they will disappeared
 	for(var i = 0, length = toFade.length; i < length; i++) {
